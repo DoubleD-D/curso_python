@@ -6,14 +6,26 @@ Este repositorio contiene los archivos del curso de Python impartido por Federic
 
 ```
 .
-├── .venv/               # Entorno virtual
-├── Dia_1/               # Día 1 del curso
-├── Dia_2/               # Día 2 del curso
-├── Dia_3/               # Día 3 del curso
+├── .venv/                      # Entorno virtual
+├── Dia_1/                      # Día 1 del curso
+│   ├── primerPrograma.py
+│   ├── programaInput.py
+│   ├── programaStrings.py
+│   └── proyecto1.py
+├── Dia_2/                      # Día 2 del curso
+│   ├── conversion_datos.py
+│   ├── operadores.py
+│   ├── proyectoDiaDos.py
+│   ├── redondeo.py
+│   └── tiposDeDato.py
+├── Dia_3/                      # Día 3 del curso
+│   ├── condicionales_operadores_logicos.py
 │   ├── index.py
+│   ├── operadores_comparacion.py
+│   ├── os_module.py
 │   └── slicing.py
 ├── .gitignore
-└── README.md            # Este archivo
+└── README.md
 ```
 
 ## 🛠️ Requisitos
@@ -39,9 +51,24 @@ pip install -r requirements.txt
 
 ## 📚 Temas Cubiertos
 
-- Día 1: Variables, tipos de datos, entrada/salida
-- Día 2: Condicionales, bucles, funciones
-- Día 3: Indexación y slicing de listas
+- **Día 1:**
+  - Tu primer programa en Python
+  - Uso de `input()`
+  - Manejo de strings
+  - Mini proyecto 1
+
+- **Día 2:**
+  - Conversión de tipos de datos
+  - Operadores aritméticos
+  - Proyecto Día 2
+  - Redondeo de números
+  - Tipos de dato
+
+- **Día 3:**
+  - Condicionales y operadores lógicos
+  - Operadores de comparación
+  - Introducción al módulo `os`
+  - Slicing e indexación de listas
 
 ## 🚀 Cómo ejecutar
 
