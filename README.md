@@ -23,7 +23,8 @@ Este repositorio contiene los archivos del curso de Python impartido por Federic
 │   ├── index.py
 │   ├── operadores_comparacion.py
 │   ├── os_module.py
-│   └── slicing.py
+│   ├── slicing.py
+│   └── string_methods.py
 ├── .gitignore
 └── README.md
 ```
@@ -69,13 +70,14 @@ pip install -r requirements.txt
   - Operadores de comparación
   - Introducción al módulo `os`
   - Slicing e indexación de listas
+  - Métodos de cadenas (string methods)
 
 ## 🚀 Cómo ejecutar
 
 Ejemplo para ejecutar un archivo:
 
 ```bash
-python Dia_3/slicing.py
+python Dia_3/string_methods.py
 ```
 
 ## 🧠 Autor del Curso
