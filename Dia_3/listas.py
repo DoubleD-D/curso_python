@@ -1,5 +1,7 @@
 #Las listas en python son colecciones ordenadas y mutables de elementos, que pueden ser de diferentes tipos.
 mi_lista = ['a', 'b', 'c']
+elementos_lista = len(mi_lista)#Imprime el número de elementos en la lista
+print(elementos_lista)
 print(type(mi_lista))  # Imprime el tipo de la variable mi_lista
 
 print('--'*10 + 'Lista con diferentes valores' + '--'*10 + "\n")  # Imprime una línea de separación
@@ -43,3 +45,10 @@ lista.sort()
 print(lista)  # Imprime la lista ordenada
 #Método más rápido para ordenar una lista
 print(sorted([10,4,3,2,6,11,12,1,5,7,3,3,3]))#El defecto de este es que debes de agregar la lista a ordenar como argumento, y no modifica la lista original
+'''sort no retorna una lista nueva, modifica la lista original. Por lo que ni se puede guardar en una variable ni imprimir directamente.'''
+
+#reverse
+print('--'*10 + 'reverse' + '--'*10 + "\n")  # Imprime una línea de separación
+lista = [1, 2, 3, 4, 5]
+lista.reverse()  # Invierte el orden de los elementos en la lista
+print(lista)  # Imprime la lista invertida
