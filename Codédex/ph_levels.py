@@ -19,9 +19,9 @@ elif ph == 14 or ph >= 8:
     print('You have a Basic pH')
 
 #Answer than the page accept
-'''if ph > 7:
-    print('Your pH is Basic')
-elif ph < 7:
-    print('Your pH is Acidic')
-else:
-    print('Your pH is Neutral')'''
+#if ph > 7:
+#    print('Your pH is Basic')
+#elif ph < 7:
+#    print('Your pH is Acidic')
+#else:
+#    print('Your pH is Neutral')
